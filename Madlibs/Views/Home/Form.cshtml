@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>  
+  <title>A MadLibs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container bg-danger">
+      <h1>Fill in the blanks to write your story!</h1>
+    <div>
+      <form action="/story" method="post">
+        <div class="form-group">
+          <label for="person1">A name</label>
+          <input id="name" name="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="person2">Another name</label>
+          <input id="anotherName" name="anotherName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">An animal</label>
+          <input id="animal" name="animal" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">An exclamation</label>
+          <input id="exclamation" name="exclamation" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">A past tense verb</label>
+          <input id="verb" name="verb" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="noun">A noun</label>
+          <input id="noun" name="noun" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the story!</button>
+      </form>
+  </div>
+</body>
+</html>
